@@ -4,43 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Backery</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
-          <img src="./images/logo.svg" alt="Backery logo">
+        <a href="/">
+          <img src="./images/logo.svg" alt="Backery logo" />
         </a>
         <ul>
-          <li><a href="#" target="_blank">Franchise</a></li>
-          <li><a href="#">Our traditions</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#traditions">New Traditions</a></li>
+          <li><a class="link" href="#chef">Chef</a></li>
+          <li><a class="link" href="#formats">Formats</a></li>
+          <li><a class="link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Call me</button>
+      <button class="button" type="button">Call me</button>
     </header>
-
     <main>
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
-      <section>
-        <ul>
+      <section id="traditions">
+        <ul class="advantages-list">
           <li>Big population</li>
           <li>Available formats by low price</li>
           <li>Expirienced team</li>
         </ul>
-        <h2>Новий формат традицій</h2>
+        <h2 class="section-title">Новий формат традицій</h2>
         <p>
           <span>shop bakery</span> - це пекарня, яка взяла все найкраще, і
           зберігла смак традиційної випічки та натуральність інгредієнтів
         </p>
         <p>Lorem ipsum</p>
-        <img src="./images/baker-man.jpg" alt="Baker man is looking to bread with smile">
+        <img
+          src="./images/baker-man.jpg"
+          alt="Baker man is looking to bread with smile"
+        />
       </section>
-      <section>
-        <h2>Наші найкращі шеф-кухарі</h2>
+      <section id="chef">
+        <h2 class="section-title">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
         <ul>
           <li>
             <article>
@@ -60,8 +63,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Формати</h2>
+      <section id="formats">
+        <h2 class="section-title">Формати</h2>
         <ul>
           <li>
             <article>
@@ -80,19 +83,26 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Приєднуйся до мережі пекарень</h2>
+      <section id="contacts">
+        <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1455565298807!2d24.0282195!3d49.8397225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e0d43317d%3A0xffb1273a7637a0a2!2z0L_RgNC-0YHQv9C10LrRgiDQodCy0L7QsdC-0LTQuCwgMSwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1699645677542!5m2!1suk!2sua"
+          width="600"
+          height="450"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
-
     <footer>
       <nav>
-        <a href=""> </a>
+        <a href="/"> </a>
         <ul>
-          <li><a href="#" target="_blank">Franchise</a></li>
-          <li><a href="#">Our traditions</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#traditions" target="_blank">New Traditions</a></li>
+          <li><a class="link" href="#chef">Chef</a></li>
+          <li><a class="link" href="#formats">Formats</a></li>
+          <li><a class="link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
 
@@ -115,7 +125,7 @@
           <li><a href=""></a></li>
         </ul>
         <a href="" target="_blank">Terms & sonditions</a>
-        <p>copyright 2023</p>
+        <p>&copy; copyright 2023</p>
       </address>
     </footer>
   </body>
