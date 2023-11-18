@@ -22,7 +22,7 @@
               <li><a class="link" href="#contacts">Contacts</a></li>
             </ul>
           </nav>
-          <button class="button" type="button">Call me</button>
+          <button class="button modal-btn-open" type="button">Call me</button>
         </div>
       </div>
     </header>
@@ -69,7 +69,8 @@
       <section class="section" id="chef">
         <div class="container">
           <h2 class="section-title chefs-title centered">
-            Наші найкращі <span class="accent">шеф-кухарі</span>
+            Наші найкращі<br />
+            <span class="accent">шеф-кухарі</span>
           </h2>
           <ul class="chefs-list">
             <li class="chefs-item">
@@ -162,7 +163,7 @@
                 </article>
               </li>
             </ul>
-            <button class="carousel-button" type="button">
+            <button class="carousel-button next" type="button">
               <svg width="16" height="16">
                 <use href="./images/icons.svg#icon-arrow"></use>
               </svg>
@@ -260,5 +261,13 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-btn-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
