@@ -16,13 +16,15 @@
               <img src="./images/logo.svg" alt="Backery logo" />
             </a>
             <ul class="header-menu">
-              <li><a class="link" href="#traditions">New Traditions</a></li>
-              <li><a class="link" href="#chef">Chef</a></li>
-              <li><a class="link" href="#formats">Formats</a></li>
-              <li><a class="link" href="#contacts">Contacts</a></li>
+              <li><a class="link" href="#traditions">Наші Традиції</a></li>
+              <li><a class="link" href="#chef">Шеф-кухарі</a></li>
+              <li><a class="link" href="#formats">Формати</a></li>
+              <li><a class="link" href="#contacts">Контакти</a></li>
             </ul>
           </nav>
-          <button class="button modal-btn-open" type="button">Call me</button>
+          <button class="button modal-btn-open" type="button">
+            Замовити дзвінок
+          </button>
         </div>
       </div>
     </header>
@@ -32,11 +34,11 @@
       </section>
       <section class="advantages-section" id="advantages">
         <div class="container">
-          <h2 class="visually-hidden">Advantages</h2>
+          <h2 class="visually-hidden">Переваги</h2>
           <ul class="advantages-list">
-            <li class="advantages-item">Big population</li>
-            <li class="advantages-item">Available formats by low price</li>
-            <li class="advantages-item">Expirienced team</li>
+            <li class="advantages-item">Великий попит на ринку</li>
+            <li class="advantages-item">Доступні за бюджетом формати</li>
+            <li class="advantages-item">Досвідчена управлінська команда</li>
           </ul>
         </div>
       </section>
@@ -83,9 +85,11 @@
                 <div>
                   <h3 class="chef-title">Настя</h3>
                   <div class="chef-text">
-                    <p>Hello, I am Nastya</p>
-                    <p>I am working about 10 years</p>
-                    <p>I am the best!</p>
+                    <p>Привіт, я Настя!</p>
+                    <p>
+                      Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.
+                    </p>
+                    <p>Я випічу для вас найсмачніщі вироби!</p>
                   </div>
                 </div>
               </article>
@@ -100,9 +104,13 @@
                 <div>
                   <h3 class="chef-title">Влад</h3>
                   <div class="chef-text">
-                    <p>Hello, I am Nastya</p>
-                    <p>I am working about 18 years!</p>
-                    <p>So, I am better then Nastya!</p>
+                    <p>Привіт, я Влад!</p>
+                    <p>
+                      Мій кодитерський стаж вже 18 років.SHOP BEKERY - це наша
+                      любов, з якою ми ділимось кожен раз з Вами через нашу
+                      випічку!
+                    </p>
+                    <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
                   </div>
                 </div>
               </article>
@@ -179,8 +187,56 @@
                 Приєднуйся до мережі пекарень
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
+              <form name="contact-form" autocomplete="off" novalidate>
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-name"
+                    >Імʼя</label
+                  >
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                    placeholder="Імʼя"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-tel"
+                    >Телефон</label
+                  >
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Телефон"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-email"
+                    >Електронна пошта</label
+                  >
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                    placeholder="Електронна пошта"
+                  />
+                </div>
+                <button class="form-button button" type="submit">
+                  Замовити дзвінок
+                </button>
+                <p class="form-terms">
+                  Натискаючи на кнопку я погоджуюсь з
+                  <a class="form-terms-link" href="#"
+                    >політикою конфіденційності</a
+                  >
+                </p>
+              </form>
             </div>
-            <!-- form -->
             <iframe
               class="contact-map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1455565298807!2d24.0282195!3d49.8397225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e0d43317d%3A0xffb1273a7637a0a2!2z0L_RgNC-0YHQv9C10LrRgiDQodCy0L7QsdC-0LTQuCwgMSwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1699645677542!5m2!1suk!2sua"
@@ -206,12 +262,12 @@
             <ul class="footer-menu">
               <li>
                 <a class="link" href="#traditions" target="_blank">
-                  New Traditions
+                  Наші Традиції
                 </a>
               </li>
-              <li><a class="link" href="#chef">Chef</a></li>
-              <li><a class="link" href="#formats">Formats</a></li>
-              <li><a class="link" href="#contacts">Contacts</a></li>
+              <li><a class="link" href="#chef">Шеф-кухарі</a></li>
+              <li><a class="link" href="#formats">Формати</a></li>
+              <li><a class="link" href="#contacts">Контакти</a></li>
             </ul>
           </nav>
 
@@ -233,7 +289,7 @@
                   href="https://maps.app.goo.gl/cuscfjnVRdoEfVT89"
                   target="_blank"
                 >
-                  Lviv, Svobodu street 1
+                  Україна, м. Київ, вул. Січових Стрільців 54
                 </a>
               </li>
               <li>
@@ -253,18 +309,67 @@
             </ul>
             <div class="address-info">
               <a class="address-link" href="" target="_blank">
-                Terms & sonditions
+                Політика конфіденційності
               </a>
-              <p class="address-copyright">&copy; copyright 2023</p>
+              <p class="address-copyright">&copy; 2023 Дані захищені</p>
             </div>
           </address>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-hidden">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-btn-close" type="button">Close</button>
+        <h2>Замовити дзвінок</h2>
+        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <form name="modal-form" autocomplete="off" novalidate>
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-name"
+              >Імʼя</label
+            >
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Імʼя"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-tel"
+              >Телефон</label
+            >
+            <input
+              class="form-input"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="Телефон"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-email"
+              >Електронна пошта</label
+            >
+            <input
+              class="form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Електронна пошта"
+            />
+          </div>
+          <button class="form-button button" type="submit">
+            Замовити дзвінок
+          </button>
+          <p class="form-terms">
+            Натискаючи на кнопку я погоджуюсь з
+            <a class="form-terms-link" href="#">політикою конфіденційності</a>
+          </p>
+        </form>
       </div>
     </div>
 
