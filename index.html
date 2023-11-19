@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Backery</title>
     <!-- Styles -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header>
@@ -130,6 +130,11 @@
             <ul class="formats-list">
               <li class="formats-item">
                 <article class="format-card">
+                  <img
+                    class="format-image"
+                    src="./images/walrus-format.jpg"
+                    alt="Walrus format"
+                  />
                   <h3 lang="en" class="format-title">Walrus</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -144,6 +149,11 @@
               </li>
               <li class="formats-item">
                 <article class="format-card">
+                  <img
+                    class="format-image"
+                    src="./images/horseshoe-format.jpg"
+                    alt="Horseshoe format"
+                  />
                   <h3 lang="en" class="format-title">Horseshoe</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -158,7 +168,12 @@
               </li>
               <li class="formats-item">
                 <article class="format-card">
-                  <h3 lang="en" class="format-title">Handleaber</h3>
+                  <img
+                    class="format-image"
+                    src="./images/handlebar-format.jpg"
+                    alt="Handlebar format"
+                  />
+                  <h3 lang="en" class="format-title">Handlebar</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
                     <p>Меню: розширене меню</p>
@@ -187,7 +202,7 @@
                 Приєднуйся до мережі пекарень
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-              <form name="contact-form" autocomplete="off" novalidate>
+              <form name="contact-form" autocomplete="off">
                 <div class="form-field">
                   <label class="form-label visually-hidden" for="user-name"
                     >Імʼя</label
@@ -318,12 +333,12 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-btn-close" type="button">Close</button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-        <form name="modal-form" autocomplete="off" novalidate>
+        <form name="modal-form" autocomplete="off">
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name"
               >Імʼя</label
@@ -334,6 +349,7 @@
               name="user-name"
               id="user-name"
               placeholder="Імʼя"
+              required
             />
           </div>
 
@@ -347,6 +363,7 @@
               name="user-tel"
               id="user-tel"
               placeholder="Телефон"
+              pattern="^\+[0-9]{12}"
             />
           </div>
 
