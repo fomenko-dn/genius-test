@@ -1,0 +1,15 @@
+.formats-section {
+  &__container {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__item {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+}
